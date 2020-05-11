@@ -1,3 +1,6 @@
+<?php
+include "languages/langConfig.php";
+?>
 <!doctype html>
 <html lang="{{ str_replace('_', '-', app()->getLocale()) }}">
 <head>
@@ -26,6 +29,7 @@
             @include('inc.messages')
             @yield('content')
         </div>
+        @include('inc.footer')
     </div>
 </body>
 </html>
