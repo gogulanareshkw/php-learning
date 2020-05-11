@@ -28,8 +28,8 @@ class PostsController extends Controller
      */
     public function index()
     {
-//        $posts = Post::all();   // to get all posts
-        $posts = Post::orderBy('created_at','desc')->get();   // to get all posts in desc order
+        $posts = Post::all();   // to get all posts
+//        $posts = Post::orderBy('created_at','desc')->get();   // to get all posts in desc order
 //        $posts Post::orderBy('title','desc')->take(1)->get();   // to get all posts in desc order and take 1 post
 //        $post = Post::where('title','Post Two')->get();   // to get single post
 //        $posts = DB::select('SELECT * from posts');
