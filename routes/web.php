@@ -42,3 +42,9 @@ Route::Resource('posts','PostsController');
 Auth::routes();
 
 Route::get('/dashboard', 'DashboardController@index');
+
+
+//for unit testing
+Route::post('/testUser', function(){
+    return response(["created"=> true]);
+});
