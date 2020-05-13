@@ -1,8 +1,6 @@
-<div class="footer bg-dark">
-    <ul class="navbar-nav mr-auto">
-        <li><a href="?lang=en">English</a></li>&nbsp;&nbsp;&nbsp;
-        <li><a href="?lang=fr">French</a></li>&nbsp;&nbsp;&nbsp;
-        <li><a href="?lang=de">Dutch</a></li>&nbsp;&nbsp;&nbsp;
-        <li><a href="?lang=es">Spanish</a></li>&nbsp;&nbsp;&nbsp;
-    </ul>
+<div style="height:70px ;width: 100%; position: absolute; bottom:0; left:0; background-color:#212529; text-align:center; margin: auto; padding:20px">
+    <a href="?lang=en">English</a>&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;
+    <a href="?lang=fr">French</a>&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;
+    <a href="?lang=de">Dutch</a>&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;
+    <a href="?lang=es">Spanish</a>&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;
 <div
