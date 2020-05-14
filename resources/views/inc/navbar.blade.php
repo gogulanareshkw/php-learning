@@ -11,10 +11,10 @@
         <div class="collapse navbar-collapse" id="navbarSupportedContent">
             <!-- Left Side Of Navbar -->
             <ul class="navbar-nav mr-auto">
-                <li><a href="/"><?php echo $lang['home']?></a></li>&nbsp;&nbsp;&nbsp;
-                <li><a href="/about"><?php echo $lang['about']?></a></li>&nbsp;&nbsp;&nbsp;
-                <li><a href="/services"><?php echo $lang['services']?></a></li>&nbsp;&nbsp;&nbsp;
-                <li><a href="/posts"><?php echo $lang['posts']?></a></li>&nbsp;&nbsp;&nbsp;
+                <li class="nav-item"><a href="/"><?php echo $lang['home']?></a></li>&nbsp;&nbsp;&nbsp;
+                <li class="nav-item"><a href="/about"><?php echo $lang['about']?></a></li>&nbsp;&nbsp;&nbsp;
+                <li class="nav-item"><a href="/services"><?php echo $lang['services']?></a></li>&nbsp;&nbsp;&nbsp;
+                <li class="nav-item"><a href="/posts"><?php echo $lang['posts']?></a></li>&nbsp;&nbsp;&nbsp;
             </ul>
 
             <!-- Right Side Of Navbar -->
@@ -38,7 +38,7 @@
 
                         <div class="dropdown-menu dropdown-menu-right" aria-labelledby="navbarDropdown">
 
-                            <a href="/dashboard">Dashboard</a>
+                            <a class="dropdown-item" href="/dashboard">Dashboard</a>
 
                             <a class="dropdown-item" href="{{ route('logout') }}"
                                onclick="event.preventDefault();
